@@ -1,0 +1,35 @@
+:root {
+    --marginalen: 0.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+.main {
+    position: absolute;
+    background: rgb(236, 91, 180);
+    top: var(--marginalen);
+    bottom: var(--marginalen);
+    left: var(--marginalen);
+    right: var(--marginalen);
+}
+
+h1 {
+    position: absolute;
+    font-family: "Impact", sans-serif;
+    color: white;
+    font-size: 6rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+}
