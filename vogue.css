@@ -52,10 +52,12 @@ img {
 
 div {
     position: relative;
-    top: 3em;
-    left: 20em;
+    top: 40%;
+    left: 5%;
     padding: 3em;
+    width:50%;
     background: rgba(255, 255, 255, .7);
     font-size: 1.5em;
     font-family: sans-serif;
+    border-radius:3em;
 }
