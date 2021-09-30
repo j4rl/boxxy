@@ -1,7 +1,17 @@
+:root{
+    --clr_body_background:#eee;
+    --clr_main_background:rgba(255, 255, 255, .7);
+    --clr_text:#333;
+    --clr_accent:rgb(195, 96, 15);
+    --clr_menu-hover:lightblue;
+    --clr_menu-text:white;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline:1px dotted red;
 }
 
 body {
@@ -27,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: lightblue;
+    color: var(--clr_menu-hover);
 }
 
 video {
@@ -60,4 +70,8 @@ div {
     font-size: 1.5em;
     font-family: sans-serif;
     border-radius:3em;
+}
+
+selector{
+    property-subproperty: value;
 }
