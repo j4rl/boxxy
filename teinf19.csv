@@ -1,32 +1,18 @@
-Nr;Namn;E-post f�r�lder
-*1;Bengtsson Laritz, Jonathan;bengtsson_ulrika@hotmail.com
-;;j_laritz@hotmail.com
-*2;Cyr�us, Colin;linda.norstedt@gmail.com
-3;Dahlsberg, Hugo;sara.dahlsberg@degerfors.se
-;;frejoh69@outlook.com
-*4;Elmberg, Casper;frizzan64@gmail.com
-;;elmberg.magnus@hotmail.com
-5;Engberg, Gabriel;maria.a.engberg@gmail.com
-6;Fagerstr�m, Vilhelm;inger.fagerstrom@hotmail.com
-;;joakim.fagerstrom@hotmail.com
-*7;Fahlin, Liam;annmarie.hedefahlin@edu.karlskoga.se
-;;hakfah53@gmail.com
-*8;Hedquist, Marcus;ninakarlskoga.cd@gmail.com
-*9;Hellgren, Hugo;peter.wennberg@regionorebrolan.se
-;;info@vitarummethudospa.se
-*10;Hellqvist, Samuel;veronica@hellqvist.nu
-;;jan@hellqvist.nu
-*11;Karlsson, Lina;malin_mattsson69@hotmail.com
-;;tony.karlsson69@hotmail.com
-*12;Konradsen, Hampus;konradsen67@gmail.com
-;;pernilla.konradsen@nobeli.se
-*13;Nilsson, Albin;meriknilsson@hotmail.com
-;;mia.nilsson3@hotmail.com
-14;Nordenhaag, Wilhelm;c.nordenhaag@telia.com
-;;h.nordenhaag@gmail.com
-*15;N�sman, Filip;erik.nasman@gmail.com
-;;malin.nasman1975@gmail.com
-16;Rubin, Viggo Str�mvall;058653818@uvtcmail.se
-;;058653818@uvtcmail.se
-*17;Shalabi, Mohamad;shrok.sh.77@gmail.com
-;;khaled1shalabi@gmail.com
+Nr;Myndig;Namn;E-post förälder1;E-post förälder2
+1;true;Bengtsson Laritz, Jonathan;bengtsson_ulrika@hotmail.com;j_laritz@hotmail.com
+2;true;Cyréus, Colin;linda.norstedt@gmail.com;
+3;false;Dahlsberg, Hugo;sara.dahlsberg@degerfors.se;frejoh69@outlook.com
+4;true;Elmberg, Casper;frizzan64@gmail.com;elmberg.magnus@hotmail.com
+5;false;Engberg, Gabriel;maria.a.engberg@gmail.com;
+6;false;Fagerström, Vilhelm;inger.fagerstrom@hotmail.com;joakim.fagerstrom@hotmail.com
+7;true;Fahlin, Liam;annmarie.hedefahlin@edu.karlskoga.se;hakfah53@gmail.com
+8;true;Hedquist, Marcus;ninakarlskoga.cd@gmail.com;
+9;true;Hellgren, Hugo;peter.wennberg@regionorebrolan.se;info@vitarummethudospa.se
+10;true;Hellqvist, Samuel;veronica@hellqvist.nu;jan@hellqvist.nu
+11;true;Karlsson, Lina;malin_mattsson69@hotmail.com;tony.karlsson69@hotmail.com
+12;true;Konradsen, Hampus;konradsen67@gmail.com;pernilla.konradsen@nobeli.se
+13;true;Nilsson, Albin;meriknilsson@hotmail.com;mia.nilsson3@hotmail.com
+14;false;Nordenhaag, Wilhelm;c.nordenhaag@telia.com;h.nordenhaag@gmail.com
+15;true;Näsman, Filip;erik.nasman@gmail.com;malin.nasman1975@gmail.com
+16;false;Rubin, Viggo Strömvall;058653818@uvtcmail.se;058653818@uvtcmail.se
+17;;Shalabi, Mohamad;shrok.sh.77@gmail.com;khaled1shalabi@gmail.com
