@@ -14,37 +14,59 @@ font-family: 'Tourney', cursive;
     --clr_accent: rgb(195, 96, 15);
     --clr_menu-hover: lightblue;
     --clr_menu-text: white;
+    --clr_menu-background: rgb(66, 66, 66);
+    --clr_star: darkgoldenrod;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px dotted red;
+    outline: 1px dotted green;
 }
 
 body {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background: #000;
+}
+
+.burger {
+    position: absolute;
+    display: none;
+    height: 3rem;
+    width: 3rem;
+    background: rgb(107, 107, 107);
 }
 
 nav {
-    width: 100%;
-    padding: 15px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background-image: url(bert.jpg);
-    background-color: rgb(66, 66, 66);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 3rem;
+    gap: .5rem;
+    color: var(--clr_menu-text);
+    overflow: hidden;
 }
 
 nav a {
-    color: white;
+    display: inline-block;
+    color: var(--clr_menu-text);
     text-decoration: none;
-    padding: 5px;
-    width: 100px;
+    padding: 6px 15px 3px 15px;
+    width: 120px;
+    height: 2rem;
+    font: bold 1.2rem sans-serif;
 }
 
 nav a:hover {
@@ -71,7 +93,9 @@ img {
     user-select: none;
 }
 
-div {
+.logo {}
+
+.front {
     position: relative;
     top: 40%;
     left: 5%;
@@ -84,6 +108,57 @@ div {
     border-radius: 3em;
 }
 
-selector {
-    property-subproperty: value;
+#container {
+    width: 100%;
+    height: calc(100% - 30px - 1.2rem - .3rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: .3rem;
+}
+
+.card {
+    padding: 1rem;
+    background: var(--clr_body_background);
+}
+
+.name {
+    font: bold 1.5rem sans-serif;
+    color: var(--clr_accent);
+}
+
+.myndig::before {
+    float: right;
+    content: "★";
+    color: var(--clr_star);
+}
+
+.mail {
+    font: 1rem/1.3rem sans-serif;
+}
+
+
+/******************************************************************************Start media queries*/
+
+@media screen and (max-width:799px) {
+    nav {
+        flex-direction: column;
+        right: 0px;
+        top: 4em;
+        height: 0px;
+        width: 130px;
+        background-color: var(--clr_menu-background);
+        transition: height 300ms linear;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 3rem;
+        cursor: pointer;
+    }
+    .burger:hover>nav {
+        height: auto;
+    }
 }

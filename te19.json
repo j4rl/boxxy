@@ -2,119 +2,119 @@
         "Nr": 1,
         "Myndig": true,
         "Namn": "Bengtsson Laritz, Jonathan",
-        "E-post förälder1": "bengtsson_ulrika@hotmail.com",
-        "E-post förälder2": "j_laritz@hotmail.com"
+        "Mail1": "bengtsson_ulrika@hotmail.com",
+        "Mail2": "j_laritz@hotmail.com"
     },
     {
         "Nr": 2,
         "Myndig": true,
         "Namn": "Cyréus, Colin",
-        "E-post förälder1": "linda.norstedt@gmail.com",
-        "E-post förälder2": ""
+        "Mail1": "linda.norstedt@gmail.com",
+        "Mail2": ""
     },
     {
         "Nr": 3,
         "Myndig": false,
         "Namn": "Dahlsberg, Hugo",
-        "E-post förälder1": "sara.dahlsberg@degerfors.se",
-        "E-post förälder2": "frejoh69@outlook.com"
+        "Mail1": "sara.dahlsberg@degerfors.se",
+        "Mail2": "frejoh69@outlook.com"
     },
     {
         "Nr": 4,
         "Myndig": true,
         "Namn": "Elmberg, Casper",
-        "E-post förälder1": "frizzan64@gmail.com",
-        "E-post förälder2": "elmberg.magnus@hotmail.com"
+        "Mail1": "frizzan64@gmail.com",
+        "Mail2": "elmberg.magnus@hotmail.com"
     },
     {
         "Nr": 5,
         "Myndig": false,
         "Namn": "Engberg, Gabriel",
-        "E-post förälder1": "maria.a.engberg@gmail.com",
-        "E-post förälder2": ""
+        "Mail1": "maria.a.engberg@gmail.com",
+        "Mail2": ""
     },
     {
         "Nr": 6,
         "Myndig": false,
         "Namn": "Fagerström, Vilhelm",
-        "E-post förälder1": "inger.fagerstrom@hotmail.com",
-        "E-post förälder2": "joakim.fagerstrom@hotmail.com"
+        "Mail1": "inger.fagerstrom@hotmail.com",
+        "Mail2": "joakim.fagerstrom@hotmail.com"
     },
     {
         "Nr": 7,
         "Myndig": true,
         "Namn": "Fahlin, Liam",
-        "E-post förälder1": "annmarie.hedefahlin@edu.karlskoga.se",
-        "E-post förälder2": "hakfah53@gmail.com"
+        "Mail1": "annmarie.hedefahlin@edu.karlskoga.se",
+        "Mail2": "hakfah53@gmail.com"
     },
     {
         "Nr": 8,
         "Myndig": true,
         "Namn": "Hedquist, Marcus",
-        "E-post förälder1": "ninakarlskoga.cd@gmail.com",
-        "E-post förälder2": ""
+        "Mail1": "ninakarlskoga.cd@gmail.com",
+        "Mail2": ""
     },
     {
         "Nr": 9,
         "Myndig": true,
         "Namn": "Hellgren, Hugo",
-        "E-post förälder1": "peter.wennberg@regionorebrolan.se",
-        "E-post förälder2": "info@vitarummethudospa.se"
+        "Mail1": "peter.wennberg@regionorebrolan.se",
+        "Mail2": "info@vitarummethudospa.se"
     },
     {
         "Nr": 10,
         "Myndig": true,
         "Namn": "Hellqvist, Samuel",
-        "E-post förälder1": "veronica@hellqvist.nu",
-        "E-post förälder2": "jan@hellqvist.nu"
+        "Mail1": "veronica@hellqvist.nu",
+        "Mail2": "jan@hellqvist.nu"
     },
     {
         "Nr": 11,
         "Myndig": true,
         "Namn": "Karlsson, Lina",
-        "E-post förälder1": "malin_mattsson69@hotmail.com",
-        "E-post förälder2": "tony.karlsson69@hotmail.com"
+        "Mail1": "malin_mattsson69@hotmail.com",
+        "Mail2": "tony.karlsson69@hotmail.com"
     },
     {
         "Nr": 12,
         "Myndig": true,
         "Namn": "Konradsen, Hampus",
-        "E-post förälder1": "konradsen67@gmail.com",
-        "E-post förälder2": "pernilla.konradsen@nobeli.se"
+        "Mail1": "konradsen67@gmail.com",
+        "Mail2": "pernilla.konradsen@nobeli.se"
     },
     {
         "Nr": 13,
         "Myndig": true,
         "Namn": "Nilsson, Albin",
-        "E-post förälder1": "meriknilsson@hotmail.com",
-        "E-post förälder2": "mia.nilsson3@hotmail.com"
+        "Mail1": "meriknilsson@hotmail.com",
+        "Mail2": "mia.nilsson3@hotmail.com"
     },
     {
         "Nr": 14,
         "Myndig": false,
         "Namn": "Nordenhaag, Wilhelm",
-        "E-post förälder1": "c.nordenhaag@telia.com",
-        "E-post förälder2": "h.nordenhaag@gmail.com"
+        "Mail1": "c.nordenhaag@telia.com",
+        "Mail2": "h.nordenhaag@gmail.com"
     },
     {
         "Nr": 15,
         "Myndig": true,
         "Namn": "Näsman, Filip",
-        "E-post förälder1": "erik.nasman@gmail.com",
-        "E-post förälder2": "malin.nasman1975@gmail.com"
+        "Mail1": "erik.nasman@gmail.com",
+        "Mail2": "malin.nasman1975@gmail.com"
     },
     {
         "Nr": 16,
         "Myndig": false,
         "Namn": "Rubin, Viggo Strömvall",
-        "E-post förälder1": "058653818@uvtcmail.se",
-        "E-post förälder2": "058653818@uvtcmail.se"
+        "Mail1": "058653818@uvtcmail.se",
+        "Mail2": "058653818@uvtcmail.se"
     },
     {
         "Nr": 17,
         "Myndig": "",
         "Namn": "Shalabi, Mohamad",
-        "E-post förälder1": "shrok.sh.77@gmail.com",
-        "E-post förälder2": "khaled1shalabi@gmail.com"
+        "Mail1": "shrok.sh.77@gmail.com",
+        "Mail2": "khaled1shalabi@gmail.com"
     }
 ]

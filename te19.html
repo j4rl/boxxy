@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="vogue.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logotvpe</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="te19.html">TE19</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <div id="container"></div>
+    <script>
+        fetch('te19.json')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                appendData(data);
+            })
+            .catch(function(err) {
+                console.log('error: ' + err);
+            });
+
+        function addMyndig(isMyndig) {
+            if (isMyndig) {
+                return " myndig";
+            } else {
+                return "";
+            }
+        }
+
+        function appendData(data) {
+            var mainContainer = document.getElementById("container");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.classList.add("card");
+                div.innerHTML = '<span class="name' + addMyndig(data[i].Myndig) + '">' + data[i].Namn + '</span><br><span class="mail">' + data[i].Mail1 + '<br>' + data[i].Mail2 + '</span>';
+                mainContainer.appendChild(div);
+                var span = document.querySelector(".name");
+
+            }
+        }
+    </script>
+</body>
+
+</html>
